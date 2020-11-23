@@ -5,7 +5,7 @@ body {
 
 h1 {
     font-size: 60px;
-    padding-inline-start: 10%;
+    padding-inline-start: 10px;
 }
 
 span {
@@ -15,38 +15,41 @@ span {
     font-family: "Palatino Linotyp";
 }
 
-.flex-box {
-    display: flex;
-    flex-wrap: wrap;
-    /* nowrap shrinks */
-    flex-direction: row;
-    justify-content: left;
-    align-content: left;
-    align-items: left;
-}
-
 #container {
-    background-color: rgb(250, 241, 216);
-    width: auto;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
-    top: 0;
     background-image: url("background.png");
 }
 
+.flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* nowrap shrinks */
+    flex-direction: row;
+    align-content: space-around;
+    padding: 20px;
+}
+
 .box {
+    width: 22%;
+    /* 22% or 100% */
+    margin-left: 10px;
     background-color: tomato;
     color: white;
     border: 2px solid black;
     padding: 20px;
-    max-width: 250px;
 }
 
 .nav {
+    width: 22%;
+    margin-left: 10px;
     background-color: black;
+    border: 2px solid black;
     color: antiquewhite;
-    width: 140px;
-    padding: 10px;
+    padding: 20px;
     background-image: url("img/icon.png");
 }
 
