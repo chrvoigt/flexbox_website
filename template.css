@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    padding-inline-start: 10%;
+}
+
+span {
+    font-size: 2em;
+    color: tomato;
+    text-decoration: none;
+    font-family: "Palatino Linotyp";
+}
+
+.flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    /* nowrap shrinks */
+    flex-direction: row;
+    justify-content: left;
+    align-content: left;
+    align-items: left;
+}
+
+#container {
+    background-color: rgb(250, 241, 216);
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    background-image: url("background.png");
+}
+
+.box {
+    background-color: tomato;
+    color: white;
+    border: 2px solid black;
+    padding: 20px;
+    max-width: 250px;
+}
+
+.nav {
+    background-color: black;
+    color: antiquewhite;
+    width: 140px;
+    padding: 10px;
+    background-image: url("img/icon.png");
+}
+
+a {
+    text-decoration: none;
+    color: rgb(243, 235, 235);
+}
+
+a:hover {
+    color: rgb(66, 245, 21);
+}
+
+#footer {
+    clear: both;
+    text-align: center;
+    padding: 10 px;
+    background-color: #999999;
+    text-align: right;
+}
